@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nunito:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,h2,label,p {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  padding-top: 30px;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=829&q=80");
+  min-height: 400px;
+  background-color: #000000;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  margin-top: 130px;
+}
+
+.titulo {
+  font-family: "Comfortaa", cursive;
+  font-size: 50px;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.subtitulo {
+  font-family: "Comfortaa", cursive;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.campo {
+  margin-top: 20px;
+}
+
+.logo {
+  width: 60px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.page-logo {
+  width: 150px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#moeda1,
+#moeda2 {
+  font-family: "nunito", sans-serif;
+}
+
+input, #moeda {
+  font-family: "nunito", sans-serif;
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 0.5px;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #000000;
+  background: #ffffff;
+}
+
+button:hover {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #000000;
+}
